@@ -1,19 +1,11 @@
 import React from "react";
 import Logo from "../Logo";
-import Image from "next/image";
+// import Image from "next/image";
 import FooterLinks from "./FooterLinks";
 
 const Footer = () => {
   return (
-    <footer className="py-20 px-56 bg-white relative text-black">
-      {/* Footer Background */}
-      <Image
-        className="absolute bottom-0 right-0"
-        src="footer-bg.svg"
-        alt="footer-bg"
-        width={300}
-        height={300}
-      />
+    <footer className="py-20 px-56 bg-white bg-footer bg-no-repeat bg-cover bg-right-bottom text-black">
       <Logo />
       <FooterLinks />
       {/* Copyrights & Address */}

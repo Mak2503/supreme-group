@@ -69,7 +69,7 @@ const FooterLinks = () => {
   ]
 
   return (
-    <ul className="mt-8 z-10 flex w-full justify-between">
+    <ul className="mt-8 flex w-full justify-between">
       {footerLinks.map((flink, fIndex) => (
         <li key={fIndex}>
           <p className="uppercase font-bold">{flink.name}</p>
